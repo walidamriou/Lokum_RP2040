@@ -1,0 +1,5 @@
+/home/wallidamriou/Documents/GitHub/Lokum_RP2040/Lokum_RP2040_0001_Getting_Started/build/elf2uf2/CMakeFiles/rebuild_cache.dir
+/home/wallidamriou/Documents/GitHub/Lokum_RP2040/Lokum_RP2040_0001_Getting_Started/build/elf2uf2/CMakeFiles/edit_cache.dir
+/home/wallidamriou/Documents/GitHub/Lokum_RP2040/Lokum_RP2040_0001_Getting_Started/build/elf2uf2/CMakeFiles/elf2uf2.dir
+/home/wallidamriou/Documents/GitHub/Lokum_RP2040/Lokum_RP2040_0001_Getting_Started/build/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir
+/home/wallidamriou/Documents/GitHub/Lokum_RP2040/Lokum_RP2040_0001_Getting_Started/build/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
