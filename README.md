@@ -1,7 +1,40 @@
 # Lokum_RP2040
 Small programs examples for RP2040 Microcontroller ( Raspberry Pi Pico )
 
+### Install tools 
+#### Linux 
+Open terminal and write: 
+1- Get the script (if you do not have wget yet install it by: ``` sudo apt install wget ```):
+```
+$ wget https://raw.githubusercontent.com/raspberrypi/pico-setup/master/pico_setup.sh 1
+```
+2- Make the script executable:
+```
+$ chmod +x pico_setup.sh
+```
+3- Run it:
+```
+$ ./pico_setup.sh
+```
+4- Reboot your system when the install is done:
+```
+$ sudo reboot
+```
+The script will:
+• Create a directory called pico
+• Install required dependencies
+• Download the pico-sdk , pico-examples , pico-extras , and pico-playground repositories
+• Define PICO_SDK_PATH , PICO_EXAMPLES_PATH , PICO_EXTRAS_PATH , and PICO_PLAYGROUND_PATH in your ~/.bashrc
+• Build the blink and hello_world examples in pico-examples/build/blink and pico-examples/build/hello_world
+• Download and build picotool and copy it to /usr/local/bin .
+• Download and build picoprobe . 
+• Download and compile OpenOCD (for debug support) .
+• Download and install Visual Studio Code .
+• Install the required Visual Studio Code extensions .
+• Configure the Raspberry Pi UART for use with Raspberry Pi Pico .
 
+* More on "Getting Started With Raspberry Pi Pico" file. 
+ 
 ### Copyright CC 2020 Walid Amriou
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
