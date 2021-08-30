@@ -35,6 +35,12 @@ The script will:
 
 * More on "Getting Started With Raspberry Pi Pico" file  
  
+5- on VScode install "cmake-tools":  
+https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools
+
+6- Follow docs/How to build to build your project
+
+
 ### Copyright CC 2020 Walid Amriou
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
