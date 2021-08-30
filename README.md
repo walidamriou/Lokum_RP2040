@@ -1,6 +1,18 @@
 # Lokum_RP2040
 Small programs examples for RP2040 Microcontroller ( Raspberry Pi Pico )
 
+### About RP2040
+
+RP2040 is a low-cost, high-performance microcontroller device with flexible digital interfaces. Key features:
+• Dual Cortex M0+ processor cores, up to 133 MHz
+• 264 kB of embedded SRAM in 6 banks
+• 30 multifunction GPIO
+• 6 dedicated IO for SPI Flash (supporting XIP)
+• Dedicated hardware for commonly used peripherals
+• Programmable IO for extended peripheral support
+• 4 channel ADC with internal temperature sensor, 0.5 MSa/s, 12-bit conversion
+• USB 1.1 Host/Devic
+
 ### Install tools 
 #### Linux 
 Open terminal and write: 
