@@ -13,6 +13,15 @@ RP2040 is a low-cost, high-performance microcontroller device with flexible digi
 * 4 channel ADC with internal temperature sensor, with 0.5 MSa/s (the MSa/s means MegaSAmples per Second which it is a measurement of sampling rate in millions of samples per second, here means 5k samples/s ), 12-bit conversion
 * USB 1.1 Host/Device
 
+### Contents of the examples
+This mark :heavy_check_mark: mean the example is available. 
+:warning: If there are any issues in the scripts of the examples write an issue in: [issues](https://github.com/walidamriou/Lokum_RP2040/issues "issues")  
+
+- 0001 Getting Started (Blink) :heavy_check_mark:	    
+- 0002 Blink with multifiles (include local .h and .c)  :heavy_check_mark: 
+- 0003 GPIO Interrupt handler (Using /simulations/ESP8266_PWM_Generator_Arduino as input signal) :heavy_check_mark:
+
+  
 ### Install tools 
 #### Linux 
 Open terminal and write: 
