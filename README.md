@@ -1,6 +1,18 @@
 # Lokum_RP2040
 Small programs examples for RP2040 Microcontroller ( Raspberry Pi Pico )
 
+### About RP2040
+
+RP2040 is a low-cost, high-performance microcontroller device with flexible digital interfaces. Key features:
+* Dual Cortex M0+ processor cores, up to 133 MHz
+* 264 kB of embedded SRAM in 6 banks
+* 30 multifunction GPIO
+* 6 dedicated IO for SPI Flash (supporting XIP with it is a feature used in the 'boot from flash' type of application. XIP mode enables execution of code from serial SPI flash instead of the more traditional way of executing the code from memories such as DDR/SRAM)
+* Dedicated hardware for commonly used peripherals
+* Programmable IO for extended peripheral support
+* 4 channel ADC with internal temperature sensor, with 0.5 MSa/s (the MSa/s means MegaSAmples per Second which it is a measurement of sampling rate in millions of samples per second, here means 5k samples/s ), 12-bit conversion
+* USB 1.1 Host/Device
+
 ### Install tools 
 #### Linux 
 Open terminal and write: 
@@ -40,6 +52,11 @@ https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools
 
 6- Follow docs/How to build to build your project
 
+### Serial (to see printf output)
+```
+sudo apt install minicom
+minicom -b 115200 -o -D /dev/ttyACM0
+```
 
 ### Copyright CC 2020 Walid Amriou
 
