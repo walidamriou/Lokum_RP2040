@@ -5,7 +5,7 @@
  * @author Walid Amriou
  * @date 08/30/2021
  * 
- * This project print "GPIO interrupt." every 2s using time
+ * This project print "Timer interrupt." every 2s using timer
  * 
  */
 
