@@ -52,6 +52,11 @@ https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools
 
 6- Follow docs/How to build to build your project
 
+### Serial (to see printf output)
+```
+sudo apt install minicom
+minicom -b 115200 -o -D /dev/ttyACM0
+```
 
 ### Copyright CC 2020 Walid Amriou
 
