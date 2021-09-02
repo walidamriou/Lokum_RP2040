@@ -5,8 +5,7 @@
  * @author Walid Amriou
  * @date 08/30/2021
  * 
- * This project blink the led on Raspberry pi pico and print "Raspberry pi pico LED Blink" every Blink
- * (The LED ON for 1s and OFF for 1s)
+ * This project print "GPIO interrupt." when a fall edge of a signal input on pin GP2
  * 
  */
 
