@@ -26,7 +26,7 @@ int main() {
 
     // Enable interrupts for specified GPIO
     // gpio_set_irq_enabled_with_callback(gpio,events,enabled,callback)
-    gpio_set_irq_enabled_with_callback(2, GPIO_IRQ_EDGE_RISE, true, &gpio_callback);
+    gpio_set_irq_enabled_with_callback(2, GPIO_IRQ_EDGE_FALL, true, &gpio_callback);
 
     // Wait forever
     while (1);
